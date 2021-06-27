@@ -1,6 +1,6 @@
 # Author : Ali Rabiei
 # Creation Date : 11/18/2020
-# This script create a https listener for winrm service and add the firewall rule 
+# This script searchs for a specific service on a list of machines
 # --------------------------------------
 $servers = get-content  ".\machines.txt"
 foreach($server in $servers){
